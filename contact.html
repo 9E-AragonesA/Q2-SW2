@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q2 Seatwork 2</title>
+
+        <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- BOOTSTRAP -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body>
+     <!-- HEADER -->
+   <header class="header">
+
+       <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+           <div class="container-fluid">
+        
+            <div class="logo">
+            <img src="oblogo.png" class="my-logo" alt="logo" width="60px"> 
+        </div>               
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                   <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="mynavbar">
+                   <ul class="navbar-nav me-auto">
+                       <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                       <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                       <li class="nav-item"><a class="nav-link" href="enroll.html">Enroll</a></li>
+                       <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                   </ul>
+
+                   <form class="d-flex">
+                        <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                       <button class="btn btn-primary m-1 text-white" type="button">Search</button>
+                   </form>
+               </div>
+           </div>
+       </nav>
+    </header>
+
+       <div class="tap">
+
+        <h1><strong>GET IN TOUCH!</strong></h1>
+
+        <p>We'd love to hear from you! Send us a form by filling out the form below.</p>
+
+    </div>
+
+
+    <div class="getintouch">
+
+        <div class="row">
+
+
+            <!-- START FORMS -->
+            <div class="col-md-7">
+
+                <div class="container bg-white  px-5 pt-4 mt-5 mb-5 rounded">
+
+                    <form class="form-inline" action="/action_page.php">
+
+
+                        <h2><strong>Send us a message</strong></h2>
+
+
+                        <!-- NAMES -->
+                        <div class="row mt-2">
+
+                            <div class="col-md-6">
+                                <div class="form-text">
+                                    <input type="text" class="form-control" id="name" placeholder="First Name*" name="username">
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-6">
+                                <div class="form-text">
+                                    <input type="text" class="form-control" id="name" placeholder="Last Name*" name="username">
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <!-- EMAIL -->
+                        <div class="row mt-3">
+
+                            <div class="col-md-12">
+                                <div class="form-email">
+                                    <input type="email" class="form-control" id="email" placeholder="Email Address*" name="address">
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <!-- CAMPUS -->
+                        <div class="row mt-4">
+
+                            <div class="col-md-12">
+                                <p>Select your campus</p>
+
+                                <select class="form-select" name="grade" id="grades">
+                                    <option>Greenhills</option>
+                                    <option>Santa Ana</option>
+                                    <option>Fairview</option>
+                                    <option>Las Piñas</option>
+                                    <option>Angeles</option>
+                                </select>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="row mt-4">
+
+                            <div class="col-md-12">
+                                <textarea class="form-control" name="textarea" maxlength="500" id="textarea" placeholder="Your message here"></textarea>
+                            </div>
+
+                        </div>
+
+                        <div class="row mt-2">
+                            <button class="btn btn-info text-white m-1" type="button">Send message</button>
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+            <!-- END FORMS -->
+            <div class="col-md-5">
+
+                <div class="container bg-white pt-4 pb-5 px-5 mt-5 rounded">
+
+                    <div class="row mb-4">
+                            <button class="btn btn-info text-white m-1" type="button">CONTACT INFO</button>
+                        </div>
+
+                        
+
+                    <div class="card-text">
+                    <p><strong>Office Address:</strong>
+                        <br>
+                    <span class="text-muted">3 Eisenhower St., Bgy. Greenhills, San Juan City,<br>Metro Manila, Philippines</span></p>
+
+                    <p><strong>Phone:</strong>
+                        <br>
+                    <span class="text-muted">+63 2 8722 9720 to 26</span></p>
+
+                    <p><strong>Email:</strong>
+                        <br>
+                    <span class="text-muted">info@obmontessori.edu.ph</span></p>
+
+                    <p class="mb-0"><strong>Working Hours:</strong>
+                        <br>
+                    <span class="text-muted">Mon - Fri: 8:00 AM - 4:00 PM</span></p>
+                    </div>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<footer class="footer">
+   <p>© 2026 OB Montessori Center. All rights reserved.</p>
+</footer>
+
+</html>
